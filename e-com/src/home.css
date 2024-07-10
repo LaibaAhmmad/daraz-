@@ -1,0 +1,386 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  position: relative;
+}
+.nav-items ul li {
+  list-style: none;
+  display: inline;
+}
+.nav-a {
+  text-decoration: none;
+  margin: 20px;
+  color: black;
+  cursor: pointer;
+}
+.nav-home {
+  color: black;
+  cursor: pointer;
+}
+.nav-items ul {
+  position: absolute;
+  top: 10%;
+  right: 50%;
+}
+.nav-input {
+  position: relative;
+  margin: 0px 10px;
+  background-color: #f5f5f5;
+  outline: 0;
+  border: 0;
+  padding: 10px;
+  border-radius: 2px;
+}
+.search-icon {
+  position: absolute;
+  top: 40%;
+  right: 8%;
+}
+.nav-icons {
+  margin: 0px 10px;
+}
+/* Header */
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.header-img {
+  border-radius: 10px;
+}
+.Sidebar {
+  background-color: white;
+  height: 50%;
+  width: 300px;
+}
+.Sidebar ul li {
+  list-style: none;
+  border: 1px solid #f5f5f5;
+  padding: 10px;
+  cursor: pointer;
+}
+.dropdown1 {
+  border: 0;
+  padding: 0px 50px 0px 0px;
+  outline: 0;
+}
+.dropdown2 {
+  border: 0;
+  padding: 0px 70px 0px 0px;
+  outline: 0;
+}
+.Slider {
+  position: relative;
+}
+.slider-content {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  color: #fafafa;
+}
+.slider-content a {
+  color: #fafafa;
+}
+.slider-content h1 {
+  font-size: 40px;
+}
+.slider-logo {
+  display: flex;
+
+  align-items: center;
+}
+.slider-logo span {
+  margin-left: 20px;
+}
+/* Sales */
+.Sales {
+  display: flex;
+  position: relative;
+  margin-top: 10px;
+}
+.block {
+  background-color: #db4444;
+  height: 45px;
+  width: 20px;
+  border-radius: 5px;
+}
+.pointer-bl {
+  display: flex;
+  margin-left: 5rem;
+}
+.pointer-bl p {
+  color: #db4444;
+  margin: 10px;
+}
+.Sales {
+  position: relative;
+}
+.Sales div {
+  text-align: center;
+  margin-left: 5.6rem;
+}
+.Sales div p {
+  margin: 0;
+}
+.digit {
+  font-size: 30px;
+}
+.sale-icons {
+  position: absolute;
+  top: 30%;
+  right: 2%;
+}
+.icons {
+  margin: 0px 5px;
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 50%;
+}
+.Sales-cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 10px 10px 70px;
+}
+
+.price {
+  display: flex;
+  margin: 0;
+}
+.before {
+  margin: 10px;
+  text-decoration: line-through;
+  color: #7d8184;
+}
+.after {
+  margin: 10px 0px;
+  color: #db4444;
+}
+.sales-btn {
+  color: white;
+  background-color: #db4444;
+  padding: 12px 30px;
+  outline: 0;
+  border: 1px solid #db4444;
+  border-radius: 3px;
+}
+.btn-div {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0px;
+}
+.Add-to-cart {
+  display: none;
+  background-color: #000000;
+  border: 2px solid #000000;
+  color: #fafafa;
+  padding: 10px 0px;
+  width: 100%;
+  outline: 0px;
+  border-radius: 2px;
+  margin: 0px;
+  font-size: 17px;
+}
+
+.Shop-img:hover + .Add-to-cart {
+  display: block;
+}
+/* catagories */
+.catagories-head {
+  display: flex;
+  margin-left: 5.6rem;
+  position: relative;
+}
+.catagories-head div {
+  position: absolute;
+  top: 30%;
+  right: 2%;
+}
+.catagories-cards {
+  display: flex;
+  margin: 10px 20px 10px 70px;
+}
+.catagories-cards div {
+  text-align: center;
+  margin: 10px;
+  padding: 20px 30px;
+  border: 3px solid #f5f5f5;
+  border-radius: 3px;
+  width: 100%;
+  background-color: white;
+}
+.cat-icons {
+  font-size: 30px;
+}
+.catagories-cards :hover {
+  background-color: #db4444;
+  border: 1px solid #db4444;
+  color: white;
+}
+/* best selling  */
+.bstSell-head {
+  display: flex;
+  margin-left: 5.6rem;
+  position: relative;
+}
+.bstSell-head div {
+  position: absolute;
+  top: 30%;
+  right: 2%;
+}
+.bst-btn {
+  color: white;
+  background-color: #db4444;
+  padding: 12px 30px;
+  outline: 0;
+  border: 1px solid #db4444;
+  border-radius: 3px;
+}
+.bstSell-cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 10px 10px 70px;
+}
+/* musicframe */
+.frame {
+  background-image: url(./images/Frame\ 600.png);
+  background-size: cover;
+  padding: 60px 50px;
+  margin-top: 5px;
+}
+.frame h5 {
+  color: #00ff66;
+}
+.frame h1 {
+  font-size: 50px;
+  color: #fafafa;
+}
+.frame-timer {
+  display: flex;
+}
+.frame-timer div {
+  background-color: #fafafa;
+  text-align: center;
+  padding: 8px 15px;
+  margin: 5px;
+  border-radius: 50%;
+  font-size: small;
+  width: 2%;
+}
+.music-btn {
+  padding: 12px 40px;
+  outline: 0;
+  margin-top: 30px;
+  border-radius: 3px;
+  background-color: #00ff66;
+  border: 2px solid #00ff66;
+  color: #fafafa;
+}
+/* Products */
+.Products {
+  margin-top: 3rem;
+}
+.product-head {
+  display: flex;
+  margin-left: 5.6rem;
+  position: relative;
+}
+.product-head div {
+  position: absolute;
+  top: 30%;
+  right: 2%;
+}
+.Product-cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 10px 10px 35px;
+}
+.red {
+  accent-color: red;
+}
+.NewArivl-head {
+  margin-left: 5.6rem;
+}
+.newarivl-pics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newarivl-pics div {
+  margin: 10px;
+}
+.newarivl-pics div a {
+  color: #fafafa;
+}
+.pic1 {
+  position: relative;
+}
+
+.pic2 {
+  position: relative;
+}
+.pic3 {
+  position: relative;
+}
+.pic4 {
+  position: relative;
+}
+.pics-div {
+  display: flex;
+}
+.pic1-content {
+  position: absolute;
+  left: 8%;
+  bottom: 5%;
+  color: #fafafa;
+}
+.pic2-content {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  color: #fafafa;
+}
+.pic3-content {
+  position: absolute;
+  bottom: 1%;
+  left: 5%;
+  color: #fafafa;
+}
+.pic4-content {
+  position: absolute;
+  bottom: 1%;
+  left: 5%;
+  color: #fafafa;
+}
+/* Services */
+.services-icons {
+  background-color: black;
+  border-radius: 50%;
+  text-align: center;
+  padding: 15px;
+  border: 10px solid grey;
+  width: 20%;
+  margin-left: 5rem;
+  margin-top: 5rem;
+}
+.Services {
+  display: flex;
+  justify-content: space-evenly;
+}
+.services-content {
+  text-align: center;
+}
+/* footer */
+.footer {
+  background-color: #000000;
+  padding: 50px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  margin-top: 20px;
+}
+.footer a {
+  text-decoration: none;
+  color: #fafafa;
+}
